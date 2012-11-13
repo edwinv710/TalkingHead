@@ -1,0 +1,242 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+
+namespace Client
+{
+    public partial class Form1 : Form
+    {
+        private int _X,_Y;
+        private int area_Left = 257;
+        private int area_Top = 25;
+        SettingControl panel_setting = new SettingControl();
+        DataInputPanel panel_input = new DataInputPanel();
+
+        public Form1()
+        {
+            InitializeComponent();
+            InitialChartPanel();
+
+            panel_chart.Visible = false;
+
+            panel_setting.Location = new System.Drawing.Point(area_Left, area_Top);
+            panel_setting.Visible = false;
+            this.Controls.Add(panel_setting);
+
+            panel_input.Location = new System.Drawing.Point(area_Left, area_Top);
+            panel_input.Visible = false;
+            this.Controls.Add(panel_input);
+
+
+        }
+
+        private void InitialChartPanel() {
+            DataSet testTypeDS = msgCenter.Objects.TestResultObject.getTestTypes();
+            cb_testType.DataSource = testTypeDS.Tables[0];
+            cb_testType.DisplayMember = "TestName";
+            cb_testType.ValueMember = "ID";
+            cb_testType.SelectedIndex = 0;
+            cb_chartPeriod.SelectedIndex = 1;
+        }
+
+        private void bt_emergency_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(e.Button==MouseButtons.Left){
+                if (_X == e.X && _Y == e.Y)
+                {
+                    return;
+                }
+                else
+                {
+                    this.Left = this.Left + e.X - _X;
+                    this.Top = this.Top + e.Y - _Y;
+                }
+            }
+            if (e.Y>500)
+            {
+                panel_control.Visible = true;
+            }
+            if (e.Y < 422)
+            {
+                panel_control.Visible = false;
+            }
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            _X = e.X;
+            _Y = e.Y;
+        }
+
+        private void bt_quite_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            this.Dispose();
+        }
+
+        private void bt_chart_Click(object sender, EventArgs e)
+        {
+            clearArea();
+            panel_chart.Visible = !panel_chart.Visible;
+        }
+
+        private void ButtonMouseEffect(Button button, bool mouseOver) {
+            int enlargeSize = 10;
+            int shiftSize = enlargeSize / 2;
+            if (mouseOver)
+            {
+                button.Width += enlargeSize;
+                button.Height += enlargeSize;
+                button.Left -= shiftSize;
+                button.Top -= shiftSize;
+            }
+            else {
+                button.Width -= enlargeSize;
+                button.Height -= enlargeSize;
+                button.Left += shiftSize;
+                button.Top += shiftSize;
+            }
+        }
+        private void bt_setting_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, false);
+        }
+
+        private void bt_setting_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, true);
+        }
+
+        private void bt_info_Click(object sender, EventArgs e)
+        {
+              clearArea();
+              panel_input.Visible = !panel_input.Visible;
+            
+        }
+
+        private void bt_emergency_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, true);
+        }
+
+        private void bt_emergency_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, false);
+        }
+
+        private void bt_info_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, true);
+        }
+
+        private void bt_info_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, false);
+        }
+
+        private void bt_chart_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, true);
+        }
+
+        private void bt_chart_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, false);
+        }
+
+        private void bt_quite_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, true);
+        }
+
+        private void bt_quite_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, false);
+        }
+
+        private void bt_home_MouseEnter(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, true);
+        }
+
+        private void bt_home_MouseLeave(object sender, EventArgs e)
+        {
+            ButtonMouseEffect((Button)sender, false);
+        }
+        private void bt_chartview_Click(object sender, EventArgs e)
+        {
+            chart_history.Series.Clear();
+            string newSerieID = cb_testType.SelectedValue.ToString();
+            chart_history.Series.Add(newSerieID);
+            chart_history.Series[newSerieID].ChartType = SeriesChartType.Spline;
+
+            chart_history.Series[newSerieID].LegendText = ((DataTable)cb_testType.DataSource).Rows[cb_testType.SelectedIndex]["TestName"].ToString();
+
+            string startDate =string.Empty;
+            string endDate = string.Empty;
+
+            switch (cb_chartPeriod.SelectedIndex) { 
+                case 0:
+                    startDate = DateTime.Now.Date.ToString();
+                    endDate = DateTime.Now.ToString();
+                    break;
+                case 1:
+                    DayOfWeek wd= DateTime.Now.DayOfWeek;
+                    startDate = DateTime.Today.AddDays(-(int)wd).ToString();
+                    endDate = DateTime.Now.ToString();
+                    break;
+                case 2:
+
+                    int md = DateTime.Now.Day;
+                    startDate = DateTime.Today.AddDays(-md).ToString();
+                    endDate = DateTime.Now.ToString();
+                    break;
+                case 3:
+                    int yd = DateTime.Now.DayOfYear;
+                    startDate = DateTime.Today.AddDays(-yd).ToString();
+                    endDate = DateTime.Now.ToString();       
+                    break;
+            }
+            
+            
+            
+            DataSet ds=msgCenter.Objects.TestResultObject.getTestResult(newSerieID, startDate,endDate);
+            chart_history.DataSource = ds.Tables[0];
+            chart_history.Series[0].XValueMember = "testTime";
+            chart_history.Series[0].YValueMembers = "maxValue";
+            chart_history.DataBind();
+
+
+        }
+
+        private void bt_setting_Click(object sender, EventArgs e)
+        {
+            clearArea();
+            panel_setting.Visible = !panel_setting.Visible;
+        }
+
+        private void clearArea() {
+            panel_setting.Visible = false;
+            panel_chart.Visible = false;
+            panel_input.Visible = false;
+        }
+
+        private void bt_home_Click(object sender, EventArgs e)
+        {
+            clearArea();
+        }
+
+       
+    }
+}

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug
+END
+AIMLbot.dll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/AIMLbot.dll
+END
+msgCenter.dll
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/21/trunk/msgCenter/msgCenter/bin/x86/Debug/msgCenter.dll
+END
+RSSEngine.dll
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/RSSEngine.dll
+END
+Google.Voice.dll
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/Google.Voice.dll
+END
+ttsEngine.dll
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/ttsEngine.dll
+END
+msgCenter.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/21/trunk/msgCenter/msgCenter/bin/x86/Debug/msgCenter.pdb
+END

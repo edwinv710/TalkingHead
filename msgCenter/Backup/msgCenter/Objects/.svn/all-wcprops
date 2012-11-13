@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/msgCenter/Backup/msgCenter/Objects
+END
+ScriptObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/msgCenter/Backup/msgCenter/Objects/ScriptObject.cs
+END
+MsgObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/msgCenter/Backup/msgCenter/Objects/MsgObject.cs
+END
+ReqObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/msgCenter/Backup/msgCenter/Objects/ReqObject.cs
+END
+TestResultObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/msgCenter/Backup/msgCenter/Objects/TestResultObject.cs
+END
+UserObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/msgCenter/Backup/msgCenter/Objects/UserObject.cs
+END

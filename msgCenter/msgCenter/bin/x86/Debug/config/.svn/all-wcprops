@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config
+END
+Settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config/Settings.xml
+END
+GenderSubstitutions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config/GenderSubstitutions.xml
+END
+PersonSubstitutions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config/PersonSubstitutions.xml
+END
+DefaultPredicates.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config/DefaultPredicates.xml
+END
+Person2Substitutions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config/Person2Substitutions.xml
+END
+Splitters.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config/Splitters.xml
+END
+Substitutions.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/bin/x86/Debug/config/Substitutions.xml
+END

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="msgCenter">
+</Property><Property Name="Solution File" Value="D:\Workspace\TeanN_LatestVersion\msgCenter\msgCenter.sln">
+</Property><Property Name="User Options File" Value="D:\Workspace\TeanN_LatestVersion\msgCenter\msgCenter.suo">
+</Property><Property Name="Date" Value="Sunday, February 20, 2011">
+</Property><Property Name="Time" Value="18:29 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="msgCenter.sln" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter.sln">
+</Event><Event ErrorLevel="0" Project="" Source="msgCenter.suo" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter.suo">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\msgCenter.csproj" Description="Project file successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\msgCenter.csproj">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\mainProcess.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\mainProcess.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Objects\MsgObject.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Objects\MsgObject.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Objects\ReqObject.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Objects\ReqObject.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Objects\ScriptObject.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Objects\ScriptObject.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Objects\TestResultObject.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Objects\TestResultObject.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Objects\UserObject.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Objects\UserObject.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Operators\ChatRobotOperator.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Operators\ChatRobotOperator.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Operators\DBOperator.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Operators\DBOperator.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Operators\GoogleVoiceOperator.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Operators\GoogleVoiceOperator.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Operators\NetOperator.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Operators\NetOperator.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Operators\SerializeOperator.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Operators\SerializeOperator.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Operators\T2SOperator.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Operators\T2SOperator.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\msgCenter\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\msgCenter.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="msgCenter" Source="msgCenter\msgCenter.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\TKTest.csproj" Description="Project file successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\TKTest.csproj">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Form1.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Form1.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Form1.Designer.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Form2.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Form2.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Form2.Designer.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Form2.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Program.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Program.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Properties\Settings.settings" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Form1.resx" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Form1.resx">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Form2.resx" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Form2.resx">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\Properties\Resources.resx" Description="File successfully backed up as D:\Workspace\TeanN_LatestVersion\msgCenter\Backup\TKTest\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\TKTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TKTest" Source="TKTest\TKTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="msgCenter.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="msgCenter.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="msgCenter" Source="msgCenter\msgCenter.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TKTest" Source="TKTest\TKTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

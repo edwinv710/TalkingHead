@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace Client
+{
+    public partial class DataInputPanel : UserControl
+    {
+        private System.Drawing.Point startPoint = new System.Drawing.Point(206, 29);
+        private int testType=0;
+
+        public DataInputPanel()
+        {
+            InitializeComponent();
+        }
+
+        private void bt_BloodGlucose_Click(object sender, EventArgs e)
+        {
+            Clear();
+            panel_glucose.Location = startPoint;
+            panel_glucose.Visible = true;
+            testType = msgCenter.Objects.TestResultObject.TESTTYPE_Glucose;
+        }
+
+        private void Clear() {
+            
+            panel_calories.Visible = false;
+            panel_glucose.Visible = false;
+            panel_insulin.Visible = false;
+            panel_exercise.Visible = false;
+        }
+
+        private void bt_insulin_Click(object sender, EventArgs e)
+        {
+            Clear();
+            panel_insulin.Location = startPoint;
+            panel_insulin.Visible = true;
+            testType = msgCenter.Objects.TestResultObject.TESTTYPE_Insulin;
+        }
+
+        private void bt_calories_Click(object sender, EventArgs e)
+        {
+            Clear();
+            panel_calories.Location = startPoint;
+            panel_calories.Visible = true;
+            testType = msgCenter.Objects.TestResultObject.TESTTYPE_Calories;
+        }
+
+        private void bt_exercise_Click(object sender, EventArgs e)
+        {
+            Clear();
+            panel_exercise.Location = startPoint;
+            panel_exercise.Visible = true;
+            testType = msgCenter.Objects.TestResultObject.TESTTYPE_Exercise;
+        }
+
+        private void bt_ok_Click(object sender, EventArgs e)
+        {
+            if (testType.Equals(msgCenter.Objects.TestResultObject.TESTTYPE_Glucose)) {
+                msgCenter.Objects.TestResultObject.TestResult newTest = new msgCenter.Objects.TestResultObject.TestResult();
+                newTest.testType= testType.ToString();
+            }
+            else if  (testType.Equals(msgCenter.Objects.TestResultObject.TESTTYPE_Insulin))  {
+
+            }
+            else if (testType.Equals(msgCenter.Objects.TestResultObject.TESTTYPE_Calories)) {
+
+            }
+            else if (testType.Equals(msgCenter.Objects.TestResultObject.TESTTYPE_Exercise)) { 
+            
+            }
+        }
+
+        private void bt_cancel_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+        }
+    }
+}

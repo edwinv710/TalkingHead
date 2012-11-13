@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug
+END
+test.mdb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/Client/Client/bin/Debug/test.mdb
+END
+AIMLbot.dll
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug/AIMLbot.dll
+END
+msgCenter.dll
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/Client/Client/bin/Debug/msgCenter.dll
+END
+Client.exe.config
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug/Client.exe.config
+END
+Client.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/trunk/Client/Client/bin/Debug/Client.pdb
+END
+Client.vshost.exe
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug/Client.vshost.exe
+END
+Client.vshost.exe.config
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug/Client.vshost.exe.config
+END
+RSSEngine.dll
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug/RSSEngine.dll
+END
+Google.Voice.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug/Google.Voice.dll
+END
+ttsEngine.dll
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/Client/Client/bin/Debug/ttsEngine.dll
+END
+msgCenter.pdb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/Client/Client/bin/Debug/msgCenter.pdb
+END
+Client.exe
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/trunk/Client/Client/bin/Debug/Client.exe
+END

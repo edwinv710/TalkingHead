@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{972382F5-1F4A-41E7-AB8C-67384AA49C4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msgCenter", "..\msgCenter\msgCenter\msgCenter.csproj", "{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{972382F5-1F4A-41E7-AB8C-67384AA49C4C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{972382F5-1F4A-41E7-AB8C-67384AA49C4C}.Debug|x86.ActiveCfg = Debug|x86
+		{972382F5-1F4A-41E7-AB8C-67384AA49C4C}.Debug|x86.Build.0 = Debug|x86
+		{972382F5-1F4A-41E7-AB8C-67384AA49C4C}.Release|Any CPU.ActiveCfg = Release|x86
+		{972382F5-1F4A-41E7-AB8C-67384AA49C4C}.Release|x86.ActiveCfg = Release|x86
+		{972382F5-1F4A-41E7-AB8C-67384AA49C4C}.Release|x86.Build.0 = Release|x86
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Debug|x86.ActiveCfg = Debug|x86
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Debug|x86.Build.0 = Debug|x86
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Release|x86.ActiveCfg = Release|x86
+		{F57D5EBB-77C7-4938-8BA5-AF0A762AE651}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

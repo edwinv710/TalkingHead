@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/Operators
+END
+GoogleVoiceOperator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/Operators/GoogleVoiceOperator.cs
+END
+ChatRobotOperator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/Operators/ChatRobotOperator.cs
+END
+DBOperator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/Operators/DBOperator.cs
+END
+NetOperator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/Operators/NetOperator.cs
+END
+SerializeOperator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/Operators/SerializeOperator.cs
+END
+T2SOperator.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/msgCenter/msgCenter/Operators/T2SOperator.cs
+END

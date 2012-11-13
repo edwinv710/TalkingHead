@@ -1,0 +1,21 @@
+D:\Workspace\msgCenter\msgCenter\bin\x86\Debug\msgCenter.dll
+D:\Workspace\msgCenter\msgCenter\bin\x86\Debug\msgCenter.pdb
+D:\Workspace\msgCenter\msgCenter\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Workspace\msgCenter\msgCenter\obj\x86\Debug\msgCenter.dll
+D:\Workspace\msgCenter\msgCenter\obj\x86\Debug\msgCenter.pdb
+D:\Workspace\TalkingHead\msgCenter\msgCenter\bin\x86\Debug\msgCenter.dll
+D:\Workspace\TalkingHead\msgCenter\msgCenter\bin\x86\Debug\msgCenter.pdb
+D:\Workspace\TalkingHead\msgCenter\msgCenter\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Workspace\TalkingHead\msgCenter\msgCenter\obj\x86\Debug\msgCenter.dll
+D:\Workspace\TalkingHead\msgCenter\msgCenter\obj\x86\Debug\msgCenter.pdb
+D:\Workspace\TalkingHead\msgCenter\msgCenter\bin\x86\Debug\AIMLbot.dll
+D:\Workspace\TalkingHead\msgCenter\msgCenter\bin\x86\Debug\Google.Voice.dll
+D:\Workspace\TalkingHead\msgCenter\msgCenter\bin\x86\Debug\ttsEngine.dll
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\bin\x86\Debug\msgCenter.dll
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\bin\x86\Debug\msgCenter.pdb
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\obj\x86\Debug\msgCenter.dll
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\obj\x86\Debug\msgCenter.pdb
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\bin\x86\Debug\AIMLbot.dll
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\bin\x86\Debug\Google.Voice.dll
+D:\Workspace\TalkingHead- Copy\msgCenter\msgCenter\bin\x86\Debug\ttsEngine.dll
