@@ -1,1 +1,1 @@
-hello
+Talking Head is a virtual assitant for with various type of illments. It provides remiders for medications, appointments and and upcomming events for the individual. A virtual head provides this information in an audible format, providing an immersive experience for the user. The talking head tracks the indivual's progress to make it a more life-like assistant.
